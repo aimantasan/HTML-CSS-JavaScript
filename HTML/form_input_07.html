@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Inputs</title>
+</head>
+<body>
+   <form action="">
+        <!-- Text -->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name here" name="name" id="name">
+        </div>
+        <br>
+        <!-- Email -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email here">
+        </div>
+        <br>
+        <!-- Text Area -->
+        <div>
+            <label for="feedback">Feedback</label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <!-- Number -->
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <br>
+        <!-- Select Dropdown -->
+        <div>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="" selected>Select gender</option>
+                <option value="male"> Male</option>
+                <option value="Female"> Female</option>
+                <option value="Others"> Others</option>
+            </select>
+        </div>
+        <br>
+        <!-- Date -->
+        <div>
+            <label for="date">Date of Birth:</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <br>
+        <!-- Radio Buttons -->
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" id="membership" value="Silver"> Silver
+            <input type="radio" name="membership" id="membership" value="Gold"> Gold
+            <input type="radio" name="membership" id="membership" value="PLat"> Plat
+        </div>
+        <br>
+        <!-- Checkbox -->
+        <div>
+            <label for="fav">I like:</label>
+            <input type="checkbox" name="fav" id="fav" value="bike">Bike
+            <input type="checkbox" name="fav" id="fav" value="car">Car
+            <input type="checkbox" name="fav" id="fav" value="boat">Boat
+        </div>
+        <br>
+        <!-- Button -->
+        <div>
+            <button type="submit">Submit</button>
+            <input type="submit" value="Submit">
+            <button type="reset">Reset</button>
+        </div>
+        
+   </form>
+</body>
+</html>

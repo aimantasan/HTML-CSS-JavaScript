@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+    <style>
+
+        /* Elements */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Reset windows margin and padding */
+            margin: 0;
+            padding: 0;
+        }
+    /* For ID */
+        /* Header Part */
+        #header{
+            background-color:red;
+            display: block;
+            text-align: center;
+            padding: 5px;
+            color: whitesmoke;
+        }
+        /* Sidebar / Navbar */
+        #sidebar{
+            background-color: tomato;
+            
+        }
+        #main-nav{
+            padding: 10px;
+            text-align: center;
+        }
+
+        #main-nav li{
+            display: inline;
+            padding: 10px;
+            
+        }
+
+        #main-nav li a{
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #main-nav li a:hover {
+            color: white;
+            background-color: red;
+        }
+        /* Welcome Section */
+        #welcome{
+            text-align: center;
+        }
+        
+        /* Blog Section */
+        #blog{
+            padding: 30px;
+            background: lightgrey;
+        }
+
+        #footer{
+            display: block;
+            background: tomato;
+            margin-top: 5px;
+            padding: 5px;
+            text-align: center;
+        }
+    /* For Class */
+        /* Card */
+        .card{
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: auto;
+        }
+        /* Article */
+        .article{
+            border: 1px black solid;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: white;
+            text-align: justify;
+            
+        }
+
+        .article h3{
+            text-align: center;
+        }
+        
+
+        .article img{
+            width: 25%;
+            height: auto;
+            padding:10px;
+            
+        }
+
+        .article table{
+            text-align: center;
+            border: 1px black dotted;
+            padding: 10px;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="card">
+        <h1>Web App</h1>
+        <p>Just another application!</p>
+    </header>
+    
+    <!-- Sidebar(Right) -->
+    <aside id="sidebar" class="card">
+        <nav>
+            <ul id="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Welcome Section -->
+        <section id="welcome" class="card">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, vel.</p>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>From our blog</h2>
+            <!-- Article One-->
+            <article class="article">
+                <h3>Article One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repudiandae 
+                    odit, porro amet veritatis deserunt sed quibusdam corrupti doloribus minima soluta ad nobis, 
+                    temporibus distinctio perspiciatis deleniti mollitia ipsum vitae!</p>
+                <div>
+                    <center>
+                        <img src="/img01.jpg" alt="image1">
+                        <img src="/img01.jpg" alt="image2">
+                        <img src="/img01.jpg" alt="image3">
+                    </center>
+                </div>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Iusto perspiciatis ratione earum facilis officiis sequi sit fuga vero excepturi. 
+                    Tempora, facere! Quam minima accusantium quidem alias. 
+                    Ad ipsa accusantium provident magnam, delectus animi deserunt eos hic numquam debitis? 
+                    Impedit corrupti alias voluptatem nobis, sit qui tempora similique corporis praesentium 
+                    amet omnis voluptate temporibus nam doloribus modi commodi fuga perspiciatis nostrum! 
+                    Sapiente unde odit vel ipsam aliquid voluptatum praesentium aspernatur sed blanditiis hic 
+                    dicta aut quaerat doloribus necessitatibus temporibus error vero, iure minus? Consequatur, 
+                    pariatur aperiam voluptates explicabo error repellat sequi nostrum illo quod iure vitae adipisci earum, 
+                    modi consequuntur quaerat.</p>
+            
+            </article>
+            <!-- Article Two -->
+            <article class="article">
+                <h3>Article Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Iure nobis quibusdam inventore eius repellendus totam quos eum aut, 
+                    deserunt id. Eum corporis commodi culpa sint distinctio magni voluptas 
+                    reiciendis voluptatibus. Adipisci eligendi ab distinctio facere itaque, 
+                    fuga facilis hic debitis deserunt eveniet illo minus! Laborum ut quidem earum totam ea.</p>
+                <!-- Table -->
+                <table>
+                    <thead>
+                        <tr>
+                            <!-- Table Title in Here -->
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                            <td>Lorem</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Table Data in Here -->
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Vel cum deleniti voluptatibus nemo dolores autem nostrum repellendus explicabo at optio.</p>
+            </article>
+
+            <article class="article">
+                <h3>Article 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ab, itaque temporibus quas rerum, nisi qui dolore voluptatem minus et laborum, 
+                    ipsam at tempore obcaecati fugit magnam tempora facilis exercitationem? 
+                    Molestias, ab? Quibusdam necessitatibus reprehenderit fuga doloremque, fugiat laboriosam at dolorum?</p>
+            </article>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="card">
+        <p class="text-center">Copyright &copy; 2022</p>
+    </footer>
+</body>
+</html>
