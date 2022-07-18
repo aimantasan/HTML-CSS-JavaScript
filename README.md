@@ -1,4 +1,17 @@
-# Web_Basics_-HTML-CSS-Js-
+Web Basics topics for Beginner
 
-#Basically covers HTML, CSS, Javascript
-#Will be including Js on DOM.
+Covers: HTML,CSS,Javascript, Including DOM manipulation.
+
+HTML:
+- HTML Format
+- Meta Tags
+- HTML Tags
+- Typography
+- Link & Images
+- List & Tables
+- Form & Input
+- Inline & Block
+- Entities
+- id & Class
+
+
