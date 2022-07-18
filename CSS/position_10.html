@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        /* Position Values:*/
+        /* Static: not affected by (tblr) properties and values */
+        /* Relative: affected by (tblr) properties and values */
+        /* Sticky: its position based on the scrollbar  */
+        /* Fix: its position based on the browser (viewport)*/
+        /* Absolute: its position based on the parent element (the parent element should be always in relative position) */
+        
+        body
+        {
+            height: 5000px;
+        }
+
+        .card{
+            height: 200px;
+            width: 200px;
+        }
+
+        #card-1{
+            background: coral;
+            position: relative;
+            top: 100px;
+            left: 100px;
+            z-index: 1;
+        }
+
+        .container{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background: cornflowerblue;
+        }
+
+        #card-2{
+            position: absolute;
+            background-color: crimson;
+            top: 150px;
+            left: 100px;
+        }
+
+        #card-3{
+            position: absolute;
+            background-color: darkgreen;
+            bottom: 100px;
+            right: 50px;
+        }
+
+        #card-4{
+            position: fixed;
+            background:darkkhaki
+        }
+
+        #card-5{
+            position: sticky;
+            background:purple;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="card-1" class="card"></div>
+
+    <div class="container">
+        <div id="card-2" class="card"></div>
+        <div id="card-3" class="card"></div>
+    </div>
+
+    <div id="card-4" class="card"></div>
+    <div id="card-5" class="card"></div>
+</body>
+</html>
