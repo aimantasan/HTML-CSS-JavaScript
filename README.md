@@ -25,3 +25,18 @@ CSS
 - Button & Link
 - Align
 - Position
+
+Javascript
+- Console
+- var, let & const
+- data & types
+- type conversion
+- math object
+- string method
+- template literals
+- array method
+- object literal
+- date object
+- if statements
+- switch
+- function
