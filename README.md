@@ -40,3 +40,12 @@ Javascript
 - if statements
 - switch
 - function
+
+DOM (Document-Object-Model) Manipulation
+- Single Selectors
+- Multiple Selectors
+- Traversing
+- Creating Elements
+- Replace & Remove
+- Event Listeners
+-Event Bubbling
